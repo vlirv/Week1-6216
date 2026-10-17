@@ -47,11 +47,12 @@ table {
 th, td {
   border: 1px solid #2e7d32;
   padding: 8px;
+  overflow-wrap: anywhere;
 }
 
 .post {
   max-width: 600px;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 20px;
   border-radius: 10px;
 }
 
@@ -99,12 +100,12 @@ th, td {
   color: gray;
   font-size: 14px;
   padding: 8px 0;
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .buttons {
   display: flex;
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .buttons button {
@@ -113,7 +114,7 @@ th, td {
   border: none;
   padding: 10px;
   font-size: 15px;
-  color: #555555;
+  color: #555;
   cursor: pointer;
 }
 
